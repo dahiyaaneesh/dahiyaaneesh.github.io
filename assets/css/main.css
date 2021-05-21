@@ -124,6 +124,7 @@ input, select, textarea {
 	strong, b {
 		color: #787878;
 		font-weight: 400;
+		font-size:1.5em;
 	}
 
 	em, i {
@@ -132,6 +133,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		font-size:1.25em;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2143,7 +2145,7 @@ input, select, textarea {
 
 			.image.avatar img {
 				border-radius: 100%;
-				width: 100%;
+				width: 150%;
 			}
 
 /* List */
@@ -2639,7 +2641,7 @@ input, select, textarea {
 		}
 
 		#header .image.avatar {
-			margin: 0 0 1em 0;
+			margin: 0 3em 2em 0;
 			width: 6.25em;
 		}
 
