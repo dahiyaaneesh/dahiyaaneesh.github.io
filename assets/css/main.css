@@ -122,9 +122,20 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #787878;
+		color: white ;
 		font-weight: 400;
 		font-size:1.5em;
+	}
+
+	bs {
+		color: rgb(158, 219, 255) ;
+		font-weight: 400;
+		font-size:1.3em;
+	}
+	cont {
+		color: rgb(179, 182, 182) ;
+		font-weight: 400;
+		font-size:1.2em;
 	}
 
 	em, i {
@@ -1763,7 +1774,7 @@ input, select, textarea {
 /* Section/Article */
 		 .timeline {
 			position: relative;
-			max-width: 600px;
+			max-width: 980px;
 			margin: 0 auto;
 		  }
 		   .timeline::after {
@@ -1774,7 +1785,7 @@ input, select, textarea {
 			top: 0;
 			bottom: 0;
 			/* left: 0%; */
-			margin-left: -32px;
+			margin-left: 10px;
 		  }
 		   .containert {
 			padding: 10px 40px;
@@ -1796,12 +1807,12 @@ input, select, textarea {
 		  }
 		  /* Place the container to the left */
  .left {
-	left: -3px;
+	left: 13px;
   }
   
   /* Place the container to the right */
    .right {
-	left: -42px;
+	/* left: -13px; */
   }
   
   /* Add arrows to the left container (pointing right) */
